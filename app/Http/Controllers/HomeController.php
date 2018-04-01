@@ -25,4 +25,20 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function catalogue()
+    {
+        return view('home');
+    }
+    public function detailItem($slug='')
+    {
+        return view('home');
+    }
+    public function aboutUs()
+    {
+        return view('home');
+    }
+    public function contactUs()
+    {
+        return view('home');
+    }
 }
