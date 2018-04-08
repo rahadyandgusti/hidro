@@ -27,18 +27,18 @@ class HomeController extends Controller
     }
     public function catalogue()
     {
-        return view('home');
+        return view('pages.catalogue');
     }
-    public function detailItem($slug='')
+    public function detailItem($slug)
     {
-        return view('home');
+        return view('pages.detil-item');
     }
     public function aboutUs()
     {
-        return view('home');
+        return view('pages.about');
     }
-    public function contactUs()
+    public function search()
     {
-        return view('home');
+        return view('pages.search');
     }
 }
